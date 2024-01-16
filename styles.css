@@ -1,0 +1,150 @@
+@font-face {
+    font-family: norse;
+    src: url(Norse-Bold.otf);
+}
+body{
+    display: flex;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.image {
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+   
+}
+.firstSection{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding-left: 10%;
+    padding-right: 20%;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    font-size: 20px;
+    background-color: rgba(224, 224, 224, 0.399);
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+.secondSection{
+    flex: 1;
+    padding-left: 10%;
+    padding-right: 300px;
+    box-shadow: 0px 3px 2px rgb(0,0,0,0.2);
+}
+
+.thirdSection{
+    flex: 1;
+    height: 100%;
+    background-color: rgba(224, 224, 224, 0.399);
+}
+
+.formItem{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.formRow{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3{
+    margin-top: 5px;
+}
+
+input{
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 2px;
+    height: 25px;
+}
+
+label{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.create_account{
+    position: relative;
+    top: 70px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    background-color: #596D48;
+    border-color:white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+.thirdSection{
+    display: flex;
+    justify-content: start;
+    padding-left: 10%;
+    padding-top: 80px;
+
+}
+
+.login{
+    color: #596D48;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+.overlay{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    top: -75%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay > p {
+    color: white;
+    font-family:norse ;
+    font-size: 60px;
+}
+
+input:focus{
+    border: 2px solid blue;
+    box-shadow: 2px 2px 4px rgb(0,0,0,0.4);
+    outline: none;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+.image > p{
+    color: white;
+    position: relative;
+    top: -20%;
+    font-size: small;
+    left: 25%;
+}
+
+p >a {
+    color: white;
+}

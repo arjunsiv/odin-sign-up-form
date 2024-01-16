@@ -8,7 +8,12 @@
 </head>
 <body>
     <div class="image" >
-        <img src="halie-west-25xggax4bSA-unsplash.jpg" height="100%" max-width="100%">
+        <img src="image/halie-west-25xggax4bSA-unsplash.jpg" height="100%" max-width="100%">
+        <div class="overlay">
+            <img src="image/odin-lined.png" height="100%">
+            <p>ODIN</p>
+        </div>
+        <p> Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com">Unsplash</a></p>
     </div>
     <div class="form">
         <div class="firstSection">
@@ -22,10 +27,49 @@
 
         </div>
         <div class="secondSection">
-            i
+            <h3>Let's do this!</h3>
+            <form>
+                <div class="formRow">
+                    <div class="formItem">
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text" id="firstname">
+                    </div>
+
+                    <div class="formItem">
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text" id="lastname">
+                    </div>
+                </div>
+
+                <div class="formRow">
+                    <div class="formItem">
+                        <label for="email">EMAIL</label>
+                        <input type="text" id="email">
+                    </div>
+
+                    <div class="formItem">
+                        <label for="phonenumber">PHONE NUMBER</label>
+                        <input type="text" id="phonenumber">
+                    </div>
+                </div>
+
+                <div class="formRow">
+                    <div class="formItem">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" required minlength="5" maxlength="12">
+                    </div>
+
+                    <div class="formItem">
+                        <label for="confirmpass">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmpass" required minlength="5" maxlength="12">
+                    </div>
+                </div>
+                <button class="create_account">Create account</button>
+            </form>
         </div>
         <div class="thirdSection">
-            j
+            <p>Already have an account?</p>
+            <a href="google.com" class="login">Log in</a>
         </div>
     </div>
     
